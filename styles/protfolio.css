@@ -20,6 +20,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 nav >ul{
     display: flex;
@@ -39,4 +40,17 @@ nav li>a{
     font-weight: 800;
     color: #181818;
     /* margin-right: 633px; */
+}
+/* header related style */
+
+.header{
+    background-color: rgb(255, 248, 243);
+}
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 500px;
 }
