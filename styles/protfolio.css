@@ -113,10 +113,10 @@ nav li>a {
 
 
 /* MAIN section styles */
-main{
+main {
     max-width: 1100px;
     margin: 0px auto;
-   
+
 }
 
 /* about section styles */
@@ -133,17 +133,55 @@ main{
     font-size: 18px;
     font-weight: 400;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
+}
+
+.what-i-do-container {
+    text-align: center;
+}
+
+#what-i-do-des {
+    padding: 30px 115px;
+    margin-top: 30px;
+}
+#what-I-do-title{
+    margin-bottom: 0px;
+}
+
+
+
+/* skill containers start */
+
+.skill-container {
+    display: flex;
+
+}
+
+.skill-title {
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 700;
     
 }
-.about-info{
-    text-align: center;
+
+.skill-description {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    
 }
-.what-i-do-container{
-    text-align: center;
-}
-#what-i-do-des{
-    padding: 30px 115px;
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-right: 20px;
 }
