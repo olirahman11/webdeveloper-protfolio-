@@ -1,11 +1,13 @@
 /* common style */
-body{
+body {
     font-family: "Open Sans", sans-serif;
 }
-.color-primary{
+
+.color-primary {
     color: rgba(253, 110, 10, 1);
 }
-.button-primary{
+
+.button-primary {
     background-color: rgba(253, 110, 10, 1);
     border: none;
     padding: 18px 35px;
@@ -16,41 +18,85 @@ body{
 }
 
 /* nav related styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
 }
-nav >ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
+
 nav li {
     list-style: none;
     margin-right: 50px;
-    
+
 }
-nav li>a{
+
+nav li>a {
     text-decoration: none;
     color: rgba(71, 71, 71, 1);
+    font-size: 20px;
 }
-.nav-title{
+
+.nav-title {
     font-size: 45px;
     font-weight: 800;
     color: #181818;
     /* margin-right: 633px; */
 }
+
 /* header related style */
 
-.header{
+.header {
     background-color: rgb(255, 248, 243);
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
-.profile-pic{
-    width: 500px;
+.banner-content{
+    max-width: 550px;
+}
+
+.profile-pic {
+    width: 584px;
+    height: 676px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: rgb(71, 71, 71);
+}
+
+.banner-title {
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.banner-p {
+    color: rgb(117, 117, 117);
+
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.banner-content button{
+    margin-top: 30px;
+    margin-right: 30px;
 }
